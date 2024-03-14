@@ -61,7 +61,6 @@ def aStarAlgo(start_node, stop_node):
                     n = parents[n]
  
                 path.append(start_node)
- 
                 path.reverse()
  
                 print('Path found: {}'.format(path))
